@@ -1,0 +1,17 @@
+{
+  "name": "jahanam",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Indra Pratama Putra"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/indraptama/jahanam",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

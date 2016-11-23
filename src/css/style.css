@@ -1,0 +1,65 @@
+@import "suitcss-base";
+@import "tachyons";
+@import "suitcss-components-flex-embed";
+
+
+@import "MainHeader.css";
+
+
+
+
+/* Components */
+@import "Hero.css";
+
+/*
+f7ab97
+f47e57
+ba6145
+*/
+
+:root {
+  --color-primary: #f7ab97;
+  --color-secondary: #f47e57;
+  --color-tertiary: #f47e57;
+
+  --primary-font: 'ubuntu';
+  --heading-font: 'ubuntu';
+}
+
+html {
+  font-size: 87.5%;
+  background-color: #f0f0f0;
+  color: rgba(0,0,0,.85);
+  font-family: 'ubuntu';
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: var(--color-tertiary);
+}
+
+p {
+    line-height: 1.5;
+}
+
+img {
+  max-width: auto;
+  height: 100%;
+}
+
+
+.container {
+  max-width: 960px;
+}
+
+.mh-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bb-primary {
+  border-color: var(--color-primary);
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+}

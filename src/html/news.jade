@@ -1,0 +1,57 @@
+extends partial/default.jade
+block content
+  .Hero.cf
+    .Hero-img.img-fill
+      img.img-fill-src(src="img/family.png")
+    .Hero-content
+      .container.tc.mh-auto
+        h2.f6.tc.ttu.tc.tracked.mb3.white Featured
+        h3.f2.mb3.white Where there is love there is life.
+        p.p-normal.mb4 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        a.f6.b.ttc.tracked.pv2.ph4.link.ba.bb-white.dim.white(href="#") View detail
+  .container.mh-auto.pv5.ph3
+    header.ttu.tracked.mb4-ns
+      h2.f6 Latest News
+    .flex.flex-wrap.mb5
+      .w-100.w-50-l.pa1
+        a(href="#").FlexEmbed.img-fill
+          .FlexEmbed-ratio.FlexEmbed-ratio--4by3
+          .FlexEmbed-content
+            img.img-fill-src(src="https://unsplash.it/480/480?image=1066")
+      .w-100.w-50-l.pa1
+        .flex.flex-wrap
+          .w-50.pa1
+            a(href="#").FlexEmbed.img-fill
+              .FlexEmbed-ratio.FlexEmbed-ratio--4by3
+              .FlexEmbed-content
+                img.img-fill-src(src="img/family.png")
+          .w-50.pa1
+            a(href="#").FlexEmbed.img-fill
+              .FlexEmbed-ratio.FlexEmbed-ratio--4by3
+              .FlexEmbed-content
+                img.img-fill-src(src="img/family-morning.jpg")
+          .w-50.pa1
+            a(href="#").FlexEmbed.img-fill
+              .FlexEmbed-ratio.FlexEmbed-ratio--4by3
+              .FlexEmbed-content
+                img.img-fill-src(src="img/family.png")
+          .w-50.pa1
+            a(href="#").FlexEmbed.img-fill
+              .FlexEmbed-ratio.FlexEmbed-ratio--4by3
+              .FlexEmbed-content
+                img.img-fill-src(src="img/family-morning.jpg")
+
+    .row
+      .col-lg-4
+        h2.h6.text-uppercase Headlines
+        .headline-news
+          a(href="news-page.html")
+            img.img-responsive(src="https://unsplash.it/480/240?image=1066")
+          a(href="news-page.html")
+            h3 Your Baby, Your Treasure
+      .col-lg-4
+        h2.h6.text-uppercase News
+        include ./partial/news-list.jade
+      .col-lg-4
+        h2.h6.text-uppercase Agenda
+        include ./partial/agenda-list.jade

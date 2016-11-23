@@ -19,6 +19,7 @@
     "gulp-plumber": "^1.1.0",
     "gulp-postcss": "^6.1.1",
     "gulp-pug": "^3.0.4",
+    "gulp-sass": "^2.3.2",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-uglify": "^2.0.0",
     "gulp-uncss": "^1.0.6",
@@ -35,6 +36,7 @@
   "dependencies": {
     "animejs": "^1.1.1",
     "bootstrap": "^3.3.7",
+    "foundation-sites": "^6.2.4",
     "gulp-gh-pages": "^0.5.4",
     "imagesloaded": "^4.1.1",
     "jstransformer-markdown-it": "^1.0.0",

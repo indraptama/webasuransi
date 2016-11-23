@@ -1,15 +1,17 @@
+
+
+
 .Hero {
-  background-color: var(--color-tertiary);
+  background-color: var(--color-primary);
   color: #fff;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   position: relative;
   min-height: 400px;
-  justify-content: center;
 }
 
 .Hero-img {
-  background-color: var(--color-tertiary);
+  background-color: var(--color-primary);
   min-height: 400px;
   opacity: 0.85;
   position: absolute;
@@ -21,4 +23,18 @@
 
 .Hero-content {
   position: relative;
+  max-width: 960px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Hero h3 {
+  font-weight: normal;
+}
+
+@media (min-width: 960px) {
+  .Hero {
+    align-items: center;
+  }
 }

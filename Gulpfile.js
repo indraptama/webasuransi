@@ -10,6 +10,8 @@ var cssnext = require('postcss-cssnext');
 var mqpacker = require('css-mqpacker');
 var cssImport = require('postcss-import');
 var resType = require('postcss-responsive-type');
+var sass = require('gulp-sass');
+
 
 var browserify = require('browserify');
 var watchify = require('watchify');
@@ -26,9 +28,10 @@ var ghPages = require('gulp-gh-pages');
 
 
 
-gulp.task('default',['jade','css','js','browser-sync'], function() {
+gulp.task('default',['jade','css','sass','js','browser-sync'], function() {
     gulp.watch('./src/index.css', ['css']);
     gulp.watch('./src/css/**/*.css', ['css']);
+    gulp.watch('./src/scss/**/*.scss', ['sass']);
     gulp.watch('./src/html/**/*.jade', ['jade']);
 });
 gulp.task('build', ['jadeBuild','cssBuild','jsBuild']);
@@ -59,6 +62,17 @@ gulp.task('css', function() {
         .pipe(plumber.stop())
         .pipe(gulp.dest('./dist/css/'))
         .pipe(reload({stream:true}))
+});
+
+
+// SCSS
+
+gulp.task('sass', function () {
+ return gulp.src('./src/scss/**/*.scss')
+  .pipe(sourcemaps.init())
+  .pipe(sass().on('error', sass.logError))
+  .pipe(sourcemaps.write('./dist/maps'))
+  .pipe(gulp.dest('./dist/css'));
 });
 
 

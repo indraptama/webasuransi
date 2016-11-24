@@ -68,6 +68,10 @@ img {
   background-color: var(--color-primary);
 }
 
+.bg-primary2 {
+  background-color:rgba(247,171,151, 0.5);
+}
+
 .bg-secondary {
   background-color: var(--color-secondary);
 }

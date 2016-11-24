@@ -1,0 +1,31 @@
+<?xml version="1.0"?><svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <title>Shield, light blue</title>
+ <defs>
+  <linearGradient id="linearGradient3630">
+   <stop stop-color="#d72906" offset="0" id="stop3632"/>
+   <stop stop-color="#684342" stop-opacity="0.498039" offset="1" id="stop3636"/>
+   <stop stop-color="#000000" stop-opacity="0" offset="1" id="stop3634"/>
+  </linearGradient>
+  <linearGradient id="linearGradient3230">
+   <stop stop-color="#122f14" offset="0" id="stop3232"/>
+   <stop stop-color="#000000" stop-opacity="0" offset="1" id="stop3234"/>
+  </linearGradient>
+  <linearGradient id="linearGradient3196">
+   <stop stop-color="#231949" stop-opacity="0.338889" offset="0" id="stop3226"/>
+   <stop stop-color="#000000" stop-opacity="0" offset="1" id="stop3200"/>
+  </linearGradient>
+  <linearGradient xlink:href="#linearGradient3196" id="linearGradient3190" y2="0.214441" x2="1.707159" y1="0.451734" x1="0.933677"/>
+  <linearGradient xlink:href="#linearGradient3230" id="linearGradient3236" y2="0.690199" x2="0.262693" y1="0.554038" x1="1.648561"/>
+  <linearGradient gradientUnits="userSpaceOnUse" xlink:href="#linearGradient3630" id="linearGradient3628" y2="156.68408" x2="30.350113" y1="80.496368" x1="132.34828"/>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g display="inline" id="layer1">
+   <path fill="#aad4ff" fill-rule="evenodd" stroke="url(#linearGradient3190)" stroke-width="0.927681px" id="path2391" d="m216.1745,41.757069c-13.241562,184.990826 58.587097,332.805828 188.55835,422.352551c2.922333,2.671539 4.193176,2.02887 7.223236,-0.264313c129.716034,-89.575012 201.40036,-237.288101 188.173431,-422.088238c-147.330627,-40.281469 -249.852325,-39.778129 -383.955017,0l0,0l0,0z"/>
+   <path fill="#aad4ff" fill-rule="evenodd" stroke="url(#linearGradient3236)" stroke-width="0.798279px" id="path2400" d="m571.085632,65.488251c11.23645,161.428329 -49.714661,290.415894 -160.003174,368.557251c-2.47998,2.332001 -3.557556,1.771149 -6.128723,-0.232422c-110.073578,-78.165741 -170.900314,-207.062805 -159.67572,-368.324829c119.652374,-34.193962 212.013702,-34.711601 325.807617,0z"/>
+  </g>
+  <g display="none" id="layer3">
+   <path fill="url(#linearGradient3628)" fill-rule="nonzero" stroke-miterlimit="4" id="rect3590" d="m64.991989,44.079288l0,17.4375l-16.937489,0l0,23.937489l16.937489,0l0,17.75l23.968758,0l0,-17.75l18.1875,0l0,-23.937489l-18.1875,0l0,-17.4375l-23.968758,0z"/>
+  </g>
+ </g>
+</svg>

@@ -2165,6 +2165,10 @@ img {
   background-color: #f7ab97;
 }
 
+.bg-primary2 {
+  background-color:rgba(247,171,151, 0.5);
+}
+
 .bg-secondary {
   background-color: #f47e57;
 }
